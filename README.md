@@ -42,20 +42,41 @@ Lastly, the tweet Ids that were collected from IEEE Dataport are accompanied by 
 
 ### Results and Discussion
 
+Upon generating the word clouds of each of the months, it was clear that the descriptive words that characterized each of the months often changed from one month to the next. For example, consider the word cloud generated in figure 3 of the tweets collected on January 1st, 2021. In the weeks leading up to this, the FDA had authorized the two vaccines Pfizer and Moderna for emergency use authorization [4]. As a result, there is an increase in topics of cancer, pregnancies, vaccines and other health related issues. This may be attributed to increased discussions about the potential side effects of the vaccine or just an overall negative reaction toward the vaccine. Similarly, each of the word clouds for the 22 months in the timespan are quite different, speaking to the fleeting nature of human attention. The major words or topics that arise in the tweets of each month are different as current events change around the world. As a result, the progression of the opinion and the topics regarding covid follow the trend seen in these word clouds. 
 
-### Introduction and Context
-### Introduction and Context
-### Introduction and Context
-### Introduction and Context
-### Introduction and Context
-### Introduction and Context
+For a better look at each of the word clouds and the major events leading up to the time of each of the word clouds, visit the following website: https://skylarmwang.github.io/wordcloud/ [5]. The website contains each of the word clouds for the 22 months. Each is labeled by the month and date and each has a list of prominent events that potentially help explain the trend of Covid discussion as seen in the word clouds. The list of current events are compiled from Covid-19 Pandemic Timeline Fast Fact, a blogpost on CNN [4].
 
+<img src="900000.png" alt="Figure 1">
 
+#### Figure 2. Word Cloud Generated for January, 2021
 
-### Jekyll Themes
+Upon generating the word clouds of each of the months, it was clear that the descriptive words that characterized each of the months often changed from one month to the next. For example, consider the word cloud generated in figure 3 of the tweets collected on January 1st, 2021. In the weeks leading up to this, the FDA had authorized the two vaccines Pfizer and Moderna for emergency use authorization [4]. As a result, there is an increase in topics of cancer, pregnancies, vaccines and other health related issues. This may be attributed to increased discussions about the potential side effects of the vaccine or just an overall negative reaction toward the vaccine. Similarly, each of the word clouds for the 22 months in the timespan are quite different, speaking to the fleeting nature of human attention. The major words or topics that arise in the tweets of each month are different as current events change around the world. As a result, the progression of the opinion and the topics regarding covid follow the trend seen in these word clouds. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skylarmwang/DSC180B/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+For a better look at each of the word clouds and the major events leading up to the time of each of the word clouds, visit the following [website](https://skylarmwang.github.io/wordcloud/) [5]. The website contains each of the word clouds for the 22 months. Each is labeled by the month and date and each has a list of prominent events that potentially help explain the trend of Covid discussion as seen in the word clouds. The list of current events are compiled from Covid-19 Pandemic Timeline Fast Fact, a blogpost on CNN [4].
 
-### Support or Contact
+<img src="Figure3a.png" alt="Figure 1">
+<img src="Figure3b.png" alt="Figure 1">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Figure 3. Change of Sentiment Over Time For Prominent Keywords in Tweets
+
+Out of all the words that were tweeted over the Covid-19 pandemic, we decided to choose five words that were consistently prominent during the course of the pandemic and were important conversation topics throughout the course of the pandemic. The five words we chose are “delta” , “lockdown”, “mask”, “Trump”, and “ vaccine”. These words were topics of controversial discussion throughout the pandemic. As a result, they are used for this sentiment analysis to see how it changed over time.
+
+Tweets that were filtered by “lockdown” and “mask” tended to stay relatively consistent in sentiment across the span of the 22 months. The tweets containing “mask”, for an instance, mainly have negative and neutral sentiment in the text analysis. In addition, this proportion of negativity tends to stay consistent over time. The trend can also be seen in the tweets categorized by “lockdown”. The tweets that were more fluctuating in their sentiment were the ones filtered by “vaccine”, “Trump”, and “delta”. The overall sentiment about the vaccine generally increased in negativity over time. This might be attributed to the reduced talk of the vaccine at the beginning of the pandemic followed by negative opinion over time as vaccines were manufactured and approved for public use. As a result, the vaccine related tweets seem to have  become increasingly negative over time. Although the neutral and negative sentiment in Trump-related tweets were fluctuating, the positive sentiment seemed to have been consistent over time. Lastly, the sentiment of the Delta-related tweets is the most varied out of all. This large variation in the Delta-related tweets could be attributed to the later discovery of the delta-variant of Covid.
+
+### Acknowledgments
+
+Thanks to Justin Eldridge and Aaron Fraenkel of the Halıcıoğlu Data Science Institute for supporting the pursuit of this project. They provided us with the tools and resources necessary to complete the project. We also want to thank Twitter for providing data through their API and IEEE DataPort for the gathered Tweet IDs for all tweets related to COVID-19.
+
+### References
+
+1) https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment?text=I+like+you.+I+love+you
+
+2) https://huggingface.co/
+
+3) https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset
+
+4) https://www.cnn.com/2021/08/09/health/covid-19-pandemic-timeline-fast-facts/index.html
+
+5) Word Cloud: https://skylarmwang.github.io/wordcloud/
+
+6) Website: https://skylarmwang.github.io/DSC180B/
