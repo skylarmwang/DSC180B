@@ -28,7 +28,7 @@ People are highly opinionated beings and the power of social media to influence 
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="3000000.png style="width:100%">
+    <img src="3000000.png" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
