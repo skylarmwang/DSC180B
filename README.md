@@ -13,13 +13,9 @@ Syntax highlighted code block
 
 # Header 1
 ## Header 2
-### Header 3
+### Introduction and Context
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
+People are highly opinionated beings and the power of social media to influence public opinion is an important area of study. We often have strong opinions of some topics and malleable ones of others, however, there is always room for change. Many external experiences, events, or factors can have an influence on opinion. One such factor is the intake of information from the different social media platforms that exist today. The existence of opinionated messages about any topic all over the internet and the ease of its accessibility can result in a shift in public opinion over time.
 
 **Bold** and _Italic_ and `Code` text
 
