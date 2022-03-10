@@ -16,19 +16,19 @@ People are highly opinionated beings and the power of social media to influence 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="1000000.png" style="width:100%">
+    <img src="100000.png" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="2000000.png" style="width:100%">
+    <img src="200000.png" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="3000000.png" style="width:100%">
+    <img src="300000.png" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
